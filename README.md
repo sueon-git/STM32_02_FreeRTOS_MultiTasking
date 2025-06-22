@@ -7,6 +7,7 @@ FreeRTOS를 도입하여 **멀티태스킹(Multitasking)**을 구현
 목표 : 두 개의 독립적인 작업(Task)을 만들어, NUCLEO 보드가 LED를 깜빡이는 동시에 PC로 주기적인 메시지를 보내는 동작 구현
 
 2. [개발 환경 및 핵심 개념]
+   
 개발 환경: STM32CubeIDE, NUCLEO-F401RE
 
 핵심 기술:
