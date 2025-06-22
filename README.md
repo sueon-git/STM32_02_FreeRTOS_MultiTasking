@@ -41,7 +41,7 @@ NUCLEO 보드의 녹색 사용자 LED(LD2)는 2초 간격으로 느리게 깜빡
 
 동작 화면 (gif): 
 
-https://github.com/user-attachments/assets/140a3956-6c90-4627-ab23-9dd3e451adb3
+![Image](https://github.com/user-attachments/assets/98327b47-56fb-46ba-a892-831515f2b9ba)
 
 5. [체크포인트]
 이전 베어메탈 프로젝트의 HAL_Delay()는 시스템 전체를 멈췄지만, FreeRTOS의 osDelay()는 해당 작업만 "휴식" 상태로 만들고 다른 작업은 계속 실행될 수 있도록 한다는 점.
