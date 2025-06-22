@@ -23,6 +23,7 @@ osDelay(): 특정 작업만 대기 상태로 만들어, 다른 작업이 실행�
 UART 통신: HAL_UART_Transmit() 함수를 사용하여 보드에서 PC로 데이터를 전송.
 
 3. [주요 구현 내용]
+   
 LedBlinkTask:
 
 2초 간격(osDelay(2000))으로 LED를 토글하는 단순한 작업을 구현
